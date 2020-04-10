@@ -21,7 +21,7 @@ export default class PlayerList extends React.Component {
   render() {
     return (
       <ul>
-        { this.state.players.map(players => <li>{players.name}</li>)}
+        { this.state.players.map(players => <li>{players.name} <br/>{players.country}</li>)}
       </ul>
     )
   }
